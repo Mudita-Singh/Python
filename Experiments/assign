@@ -1,0 +1,85 @@
+
+    #using list
+'''
+marks=[20,45,60,78,90,100,33,67,55,78]
+l=len(marks)
+s=sum(marks)
+avg=s/l
+print(avg)
+total=l*100
+p=(s/total)*100
+print(p)
+print("grade: ")
+if (p>90):
+    print("O")
+elif(p>80):
+    print("A+")
+elif(p>70):
+    print("A")
+elif (p > 60):
+    print("B+")
+elif(p>50):
+    print("B")
+elif(p>40):
+    print("C+")
+elif(p>35):
+    print("C")
+else:
+    print("fail")'''
+
+#using tuples
+
+marks=(28,45,65,78,91,100,33,67,59,78)
+l=len(marks)
+s=sum(marks)
+avg=s/l
+print(avg)
+total=l*100
+p=(s/total)*100
+print(p)
+print("grade: ")
+if (p>90):
+    print("O")
+elif(p>80):
+    print("A+")
+elif(p>70):
+    print("A")
+elif (p > 60):
+    print("B+")
+elif(p>50):
+    print("B")
+elif(p>40):
+    print("C+")
+elif(p>35):
+    print("C")
+else:
+    print("fail")
+
+
+#using dictionary
+    
+m1={"marks":[65,78,87,96,80,90,100,94,57,28]}
+l=len(m1["marks"])
+s=sum(m1["marks"])
+avg=s/l
+print(avg)
+total=l*100
+p=(s/total)*100
+print(p)
+print("grade: ")
+if (p>90):
+    print("O")
+elif(p>80):
+    print("A+")
+elif(p>70):
+    print("A")
+elif (p > 60):
+    print("B+")
+elif(p>50):
+    print("B")
+elif(p>40):
+    print("C+")
+elif(p>35):
+    print("C")
+else:
+    print("fail")
